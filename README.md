@@ -18,8 +18,6 @@ In `server.js`, implement the `POST /tasks` endpoint to read those values from t
 
 If everything checks out, create a task with a unique ID, store it in the `tasks` array, and return it with HTTP `201 Created`. If the title is missing or blank, or the user ID is missing, return `400 Bad Request`. If the user ID does not match a user, return `404 Not Found`.
 
-The `tasks` array is an in-memory stand-in for a database. That keeps this exercise focused: tasks are available while the server is running, but are cleared when it restarts.
-
 ## Testing
 When you are ready to try it, start the server in one terminal:
 
